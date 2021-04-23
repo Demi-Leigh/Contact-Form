@@ -1,0 +1,60 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://picsum.photos/id/237/2000/1200);
+}
+
+#contact-form {
+  background: rgba(9, 7, 7, 0.1);
+  box-shadow: 0 8px 32px 25px rgba(138, 139, 165, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 10%;
+  margin: 5%;
+}
+.contact-label {
+  display: none;
+  height: 5%;
+  width: 5%;
+}
+.contact-info {
+  margin-top: 10%;
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  height: 40px;
+}
+.contact-input {
+  width: 100%;
+  height: 100%;
+  background-color: burlywood;
+  border-radius: 10px;
+}
+.contact-heading {
+  font-family: serif;
+  color: burlywood;
+  text-transform: uppercase;
+  font: 10%;
+  font-size: 300%;
+}
+.button {
+  margin-top: 10%;
+  padding: 2%;
+  width: 30%;
+  padding: 5px;
+  font-size: 100%;
+  background-color: burlywood;
+  border-radius: 10px;
+}
